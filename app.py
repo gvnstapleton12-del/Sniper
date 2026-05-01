@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import datetime
+username = st.secrets["api_user"]
+password = st.secrets["api_pass"]
 
 # --- SYSTEM CONFIG ---
 st.set_page_config(page_title="V3.3 Alpha Sniper LIVE", layout="wide")
